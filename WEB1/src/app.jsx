@@ -2,8 +2,6 @@ import React, { useState, useRef, useEffect, Suspense } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { OrbitControls, Text, Sphere, Box, Cylinder, Torus } from '@react-three/drei';
 import * as THREE from 'three';
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Text } from '@react-three/drei'
 
 // Game state management
 const GameProvider = ({ children }) => {
